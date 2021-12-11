@@ -31,6 +31,127 @@
      -mox-box-shadow: -1px 2px 7px 1px rgba(0, 0, 0.5);    
      box-shadow: -1px 2px 7px 1px rgba(0, 0, 0, 0.5);
  }
- .form {
-     text-align: center;
+ .Form {
+    background-color: #cc0000;
+    width: 550px;
+    height: 600px;
+    text-align: center;
+    margin-left: 500px;
+    border-radius: 30px;
+    padding-top: 50px;
  }
+.formcontrold {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.formcontrolm {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.formcontroly {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.formcontrolg {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+.formcontrold label {
+    display: block;
+    margin-bottom: 5px;
+    margin-left: -250px;
+}
+.formcontrold input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.formcontrolm label {
+    display: block;
+    margin-bottom: 5px;
+    margin-left: -230px;
+}
+.formcontrolm input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.formcontroly label {
+    display: block;
+    margin-bottom: 5px;
+    margin-left: -250px;
+}
+.formcontroly input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.formcontrolg label {
+    display: block;
+    margin-bottom: 5px;
+    margin-left: -230px;
+}
+.formcontrolg input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.formcontrold small {
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.formcontrold i {
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    visibility: hidden;
+}
+.formcontrolm small {
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.formcontrolm i {
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    visibility: hidden;
+}
+.formcontroly small {
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.formcontroly i {
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    visibility: hidden;
+}
+.formcontrolg small {
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.formcontrolg i {
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    visibility: hidden;
+}
+.submit {
+    background-color: #e67300;
+    border: 2px solid #e67300;
+    border-radius: 4px;
+    color: white;
+    display: block;
+    padding: 10px;
+    width: 80%;
+    margin-left: 50px;
+}
+
