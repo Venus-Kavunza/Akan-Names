@@ -16,5 +16,15 @@
  }
  .pakan {
      font-size: 20px;
-     
+ }
+ .abouta {
+     border: 2px solid papayawhip;
+     width: 600px;
+     height: 300px;
+     padding: 20px;
+     text-align: center;
+     margin-top: -400px;
+     margin-left: 800px;
+     border-radius: 55% 45% 60% 45% / 0% 100% 0% 100%;
+     background-color: #e67300;
  }
