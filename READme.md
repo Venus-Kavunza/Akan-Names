@@ -1,13 +1,13 @@
 # Akan-Names
 Akan-Names
-Authors: Venus Mwende 
-This website explains the details of the Akan-Names, its a website where you can find out your Akan name by inserting your birthday date.
-# Akan-Names
-Fashion-Collection https://venus-kavunza.github.io/Akan-Names/
+Akan-Names https://venus-kavunza.github.io/Akan-Names/
 ## Author
-Venus Mwende
+Venus Mwende Kavunza
+## Author Information
+Github Acoount - Venus-Kavunza URL - https://github.com/Venus-Kavunza
+Email - venusmwende@gmail.com
 ### Description
-the website entails more about Akan-Names
+This website explains what Akan-Names are and it`s  where you can find out your Akan name by just inserting your birthday date.
 ### Prerequisities
 You need to have git installed
 You can install it with the following command in your terminal
