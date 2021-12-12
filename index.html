@@ -27,40 +27,52 @@
         </div>
     </div>
     <div class="Form">
-        <h1 class="formh">Get to know your Akan Name here.</h1>
-        <hr>
-        <p id="invalid"></p>
-        <p id="output"></p>
-        <p class="formp">Please fill in your birth date and your gender.</p>
-        <form action="" class="form" id="form">
-            <div class="formcontrold success" >
-                <label for="">Day:</label>
-                <input type="text" placeholder="dd" id="day">
+        <form onsubmit="AkanGenerate(event)">
+          <legend>Fill To Generate Your Akan Name</legend>
+          <hr>
+          <p id="invalid"></p>
+          <p id="output"></p>
+          <p>Please enter Date of Birth</p>
+          <div class="formcontrold">
+            <label for="day">Day:</label>
+            <div class="col-sm-8">
+              <input type="text" name="day" id="day" maxlength="2" required>
             </div>
-            <div class="formcontrolm error">
-                <label for="">Month:</label>
-                <input type="text" placeholder="mm" id="month">
+          </div>
+          <div class="formcontrolm">
+            <label for="month" >Month:</label>
+            <div class="col-sm-8">
+              <input type="text" name="month" id="month" maxlength="2" required>
             </div>
-            <div class="formcontroly">
-                <label for="">Year:</label>
-                <input type="text" placeholder="yyyy" id="year">
+          </div>
+          <div class="formcontroly">
+            <label for="year" >Year:</label>
+            <div class="col-sm-8">
+              <input type="text" name="year" id="year" maxlength="4" required>
             </div>
-                <label for="">Gender:</label>
-            <div class="form-check">
-                <input type="radio" name="gender" id="male">
-                <label for="male" class="form-check-label"> Male</label>
-            </div>
-            <div class="form-check">
-                <input type="radio" name="gender" id="female">
-                <label for="female" class="form-check-label"> Female</label>
-            </div>
-        <div class="button">
+          </div><br>
+          <p>Please select your Gender</p>
+          <div class="formcontrolg">
+            <input type="radio" id="male" name="gender">
+            <label classfor="male">
+              Male
+            </label>
+          </div>
+          <div class="formcontolg">
+            <input type="radio" id="female" name="gender">
+            <label for="female">
+              Female
+            </label>
+          </div><br>
+          <div class="butn">
             <input type="submit" value="Submit" id="submit" class="btn m-2 text-white">
             <input type="reset" value="Reset" id="reset" class="btn m-2 text-white" onclick="resetForm()">
-        </div>
+          </div>
         </form>
+      </div>
+    </div>
     </div>
     <script src="js/script.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
 </body>
 </html>

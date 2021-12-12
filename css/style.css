@@ -88,9 +88,7 @@
     font-size: 14px;
 }
 .formcontrolg label {
-    display: block;
-    margin-bottom: 5px;
-    margin-left: -230px;
+    display: inline-block;
 }
 .formcontrolg input {
     border: 2px solid #f0f0f0;
