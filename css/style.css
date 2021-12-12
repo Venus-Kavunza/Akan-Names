@@ -113,11 +113,7 @@ hr {
     background-color: currentColor;
     border: 0;
     opacity: 0.25;
-  }
-  p {
-    margin-top: 0;
-    margin-bottom: 1rem;
-  }
+}
   #invalid {
       text-align: center;
       color: red;
