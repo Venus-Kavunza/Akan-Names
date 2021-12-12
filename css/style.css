@@ -32,7 +32,7 @@
      box-shadow: -1px 2px 7px 1px rgba(0, 0, 0, 0.5);
  }
  .Form {
-    background-color: #cc0000;
+    background-color: #ffa64d;
     width: 550px;
     height: 600px;
     text-align: center;
@@ -65,6 +65,16 @@
     border: 2px solid #f0f0f0;
     border-radius: 4px;
     font-size: 14px;
+}
+.formcontrold.success input {
+    border-color: #2ecc71;
+}
+.formcontrolm.error input {
+    border-color: #f70237;
+}
+.formcontrolm.error small {
+    color: #e74c3c;
+    visibility: visible; 
 }
 .formcontrolm label {
     display: block;
