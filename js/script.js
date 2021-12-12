@@ -41,3 +41,9 @@ if ((day < 1 )) || (day > 31) || isNaN(day)) {
      }
     }
 }
+
+
+function resetForm() {
+    $(document.getElementById("invalid")).hide();
+    $(document.getElementById("output")).hide();
+}
