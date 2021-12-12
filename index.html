@@ -28,33 +28,27 @@
     </div>
     <div class="Form">
         <form onsubmit="AkanGenerate(event)">
-          <legend>Fill To Generate Your Akan Name</legend>
+          <h1>Fill To Generate Your Akan Name</h1>
           <hr>
           <p id="invalid"></p>
           <p id="output"></p>
-          <p>Please enter Date of Birth</p>
+          <p class="formp"> Please fill in your birth date and your gender.</p>
           <div class="formcontrold">
             <label for="day">Day:</label>
-            <div class="col-sm-8">
               <input type="text" name="day" id="day" maxlength="2" required>
-            </div>
           </div>
           <div class="formcontrolm">
             <label for="month" >Month:</label>
-            <div class="col-sm-8">
               <input type="text" name="month" id="month" maxlength="2" required>
-            </div>
           </div>
           <div class="formcontroly">
             <label for="year" >Year:</label>
-            <div class="col-sm-8">
               <input type="text" name="year" id="year" maxlength="4" required>
-            </div>
           </div><br>
           <p>Please select your Gender</p>
           <div class="formcontrolg">
             <input type="radio" id="male" name="gender">
-            <label classfor="male">
+            <label for="male">
               Male
             </label>
           </div>
@@ -72,6 +66,7 @@
       </div>
     </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/script.js"></script>
     
 </body>
