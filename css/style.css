@@ -66,16 +66,7 @@
     border-radius: 4px;
     font-size: 14px;
 }
-.formcontrold.success input {
-    border-color: #2ecc71;
-}
-.formcontrolm.error input {
-    border-color: #f70237;
-}
-.formcontrolm.error small {
-    color: #e74c3c;
-    visibility: visible; 
-}
+
 .formcontrolm label {
     display: block;
     margin-bottom: 5px;
@@ -106,54 +97,6 @@
     border-radius: 4px;
     font-size: 14px;
 }
-.formcontrold small {
-    visibility: hidden;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
-.formcontrold i {
-    position: absolute;
-    top: 40px;
-    right: 10px;
-    visibility: hidden;
-}
-.formcontrolm small {
-    visibility: hidden;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
-.formcontrolm i {
-    position: absolute;
-    top: 40px;
-    right: 10px;
-    visibility: hidden;
-}
-.formcontroly small {
-    visibility: hidden;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
-.formcontroly i {
-    position: absolute;
-    top: 40px;
-    right: 10px;
-    visibility: hidden;
-}
-.formcontrolg small {
-    visibility: hidden;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
-.formcontrolg i {
-    position: absolute;
-    top: 40px;
-    right: 10px;
-    visibility: hidden;
-}
 .submit {
     background-color: #e67300;
     border: 2px solid #e67300;
@@ -161,7 +104,37 @@
     color: white;
     display: block;
     padding: 10px;
-    width: 80%;
+    width: 30%;
     margin-left: 50px;
 }
+hr {
+    margin: 1rem 0;
+    color: inherit;
+    background-color: currentColor;
+    border: 0;
+    opacity: 0.25;
+  }
+  p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  #invalid {
+      text-align: center;
+      color: red;
+  }
+  #output {
+      text-align: center;
+      color: green;
+  }
+  #submit,
+  #reset {
+      background-color: #e67300;
+      color: white;
+      border: none;
+      margin: 10px;
+      padding: 10px;
+      font-size: 15px;
+      border-radius: 5px;
+  }
+
 
