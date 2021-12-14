@@ -12,7 +12,7 @@ function AkanGenerate(e, day, month, year) {
         $(document.getElementById("invalid")).show();
         $(document.getElementById("output")).hide();
         document.getElementById("invalid").innerHTML = "Month is invalid. Please enter a valid Month";
-    } else if ((year < 1200) || isNaN(year)) {
+    } else if ((year < 1000) || isNaN(year)) {
         $(document.getElementById("invalid")).show();
         $(document.getElementById("output")).hide();
         document.getElementById("invalid").innerHTML = "Year is invalid. Please enter a valid Year";
