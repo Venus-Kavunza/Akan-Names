@@ -1,6 +1,6 @@
 # Akan-Names
-Akan-Names
-Akan-Names https://venus-kavunza.github.io/Akan-Names/
+Akan-Names -
+https://venus-kavunza.github.io/Akan-Names/
 ## Author
 Venus Mwende Kavunza
 ## Author Information

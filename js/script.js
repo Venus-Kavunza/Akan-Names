@@ -42,7 +42,6 @@ function AkanGenerate(e, day, month, year) {
 
     }
 }
-/*Reset Button */
 function resetForm() {
     $(document.getElementById("invalid")).hide();
     $(document.getElementById("output")).hide();
